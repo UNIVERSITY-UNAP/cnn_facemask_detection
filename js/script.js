@@ -1,7 +1,7 @@
 
 const model = (async () => {
   console.log("loading model...");
-  const mm = await tf.loadLayersModel("https://raw.githubusercontent.com/UNIVERSITY-UNAP/cnn_facemask_detection/main/model2.json")
+  const mm = await tf.loadLayersModel("https://raw.githubusercontent.com/UNIVERSITY-UNAP/cnn_facemask_detection/main/models/model2.json")
   console.log("model loaded");
   return mm;
 })();
